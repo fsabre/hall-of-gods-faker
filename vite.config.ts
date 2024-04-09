@@ -3,5 +3,7 @@ import preact from "@preact/preset-vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: "/hall-of-gods-faker/",
+    build: {outDir: "docs"},
     plugins: [preact()],
 });
