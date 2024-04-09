@@ -10,6 +10,8 @@ A demo is available [here](https://fsabre.github.io/hall-of-gods-faker/).
 
 Just click on a symbol to rotate between the available ones.
 
+Zoom or dezoom to fit the screen according to your resolution.
+
 Screenshot yourself.
 
 ## Run locally
