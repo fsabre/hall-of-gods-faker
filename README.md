@@ -8,11 +8,11 @@ A demo is available [here](https://fsabre.github.io/hall-of-gods-faker/).
 
 ## Features
 
-Just click on a symbol to rotate between the available ones.
+Click on a symbol to rotate between the available ones (none, attuned, ascended, radiant).
 
-Zoom or dezoom to fit the screen according to your resolution.
+Use the zoom/dezoom function of your browser (probably Ctrl + '+') to show the whole screen, depending on your resolution.
 
-Screenshot yourself.
+Screenshot manually.
 
 ## Run locally
 
