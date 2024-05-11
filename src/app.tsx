@@ -8,12 +8,13 @@ import ascendedPin from "./img/ascended-pin.png";
 import radiantPin from "./img/radiant-pin.png";
 
 enum PinType {
-    NONE,
-    ATT,
-    ASC,
-    RAD,
+    NONE, // Not done
+    ATT, // Attuned
+    ASC, // Ascended
+    RAD, // Radiant
 }
 
+// Calculate the coordinates of each pins on the base image
 const STARTING_POINT: [number, number] = [132, 329];
 const X_GAP = 565;
 const Y_GAP = 82;
@@ -37,6 +38,7 @@ function Pin(props: PinProps) {
     const {pinNumber, coords} = props;
     const alias = `pin${pinNumber}`;
 
+    // Change the pin type, in order
     function rotate() {
         setSymbol((symbol + 1) % 4);
     }
